@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from openpyxl import load_workbook
 from scipy import stats
 
 data = pd.read_excel("Data.xlsx", sheet_name="Sheet2")
